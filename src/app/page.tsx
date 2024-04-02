@@ -1,4 +1,5 @@
 import Button from "./components/Button";
+import Card from "./components/Card";
 import Header from "./components/Header";
 
 export default function Home() {
@@ -11,6 +12,11 @@ export default function Home() {
         <Button>
           Get Started
         </Button>
+      </section>
+      <section>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
       </section>
     </main >
   );
